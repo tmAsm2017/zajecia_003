@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:gap="http://phonegap.com/ns/1.0"
+        id="aplikacja_akacja"
+        version="1.0.0">
+
+    <name>jot kuery</name>
+    <description>tak nie tak nie tak</description>
+    <author href="http://page.com" email="mail@domain.com">
+        John Smith
+    </author>
+    <platform name="android"/>
+
+    <plugin name="cordova-plugin-device" spec="~1.1.4"/>
+    <plugin name="cordova-plugin-dialogs" spec="~1.3.1"/>
+
+</widget>
