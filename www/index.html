@@ -8,37 +8,38 @@
 </head>
 <body>
 
-<a href="#mainPage" class="ui-btn">1</a>
-<a href="#otherPage1" class="ui-btn">2</a>
-<a href="#otherPage2" class="ui-btn">3</a>
-
 <div data-role="page" id="mainPage">
+
     <div data-role="header">
-        <h1>Text in header</h1>
+        <h1>Hello W**!</h1>
     </div>
+
     <div data-role="main" class="ui-content">
-        <p>Page content</p>
+        <p>The graphical user interface (GUI), is a type of user interface that allows users to interact with electronic
+            devices through graphical icons and visual indicators such as secondary notation, instead of text-based user
+            interfaces, typed command labels or text navigation. GUIs were introduced in reaction to the perceived steep
+            learning curve of command-line interfaces (CLIs), which require commands to be typed on a computer
+            keyboard.</p>
     </div>
+
     <div data-role="footer">
-        <h1>Text in footer</h1>
+        <h2><a href="#dialogWindow" class="ui-btn">Show dialog window</a> or... <a href="#otherPage" class="ui-btn">another
+            page</a></h2>
     </div>
 </div>
-<div data-role="page" id="otherPage1">
-    abc
-</div>
-<div data-role="page" id="otherPage2">
-    123
+
+<div data-role="page" id="otherPage">
+    <h2>Do you want to play a game..?</h2>
+    <img src="img/agame.jpg" width="100%"/>
 </div>
 
 <div data-role="page" data-dialog="true" id="dialogWindow">
     <div data-role="header">
-        <h1>Text in header</h1>
+        <h1>Error, warning, achtung</h1>
     </div>
     <div data-role="main" class="ui-content">
-        <p>Page content</p>
-    </div>
-    <div data-role="footer">
-        <h1>Text in footer</h1>
+        <p>Oops..! You'r device seems to be broken mister.</p>
     </div>
 </div>
+
 </body>
